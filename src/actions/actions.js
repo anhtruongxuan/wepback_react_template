@@ -1,0 +1,16 @@
+import { ADD_TODO, REMOVE_TODO } from '../constants/actionTypes.js';
+
+// Action creators
+export function addTodo(text) {
+  return {
+    type: ADD_TODO,
+    text
+  }
+}
+
+export function removeTodo(id) {
+  return {
+    type: REMOVE_TODO,
+    id
+  }
+}
