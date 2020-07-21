@@ -8,15 +8,11 @@ class App extends React.Component {
     super(props);
   }
 
-  clickMe() {
-    alert('Click me with function component');
-  }
-
   render() {
     return (
       <Router>
         <div className="container">
-          <Header headerLeft="Logo company" headerRight="Menu conpany" handleClick={this.clickMe}/>
+          <Header headerLeft="Logo company" headerRight="Menu conpany"/>
           <div className="row justify-content-center">
             <h3 className="mx-5">
               React App

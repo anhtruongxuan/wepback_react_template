@@ -7,7 +7,6 @@ export const Header = ({headerLeft, headerRight, handleClick}) => {
 
   const callMe = (event) => {
     setGreeting('trurth me');
-    console.log('event', event);
   }
 
   return (
