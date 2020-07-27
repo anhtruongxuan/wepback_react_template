@@ -1,21 +1,14 @@
-import React from "react";
-import "./footer.scss";
+import React, { Component } from 'react'
+// import InputGroup from 'react-bootrap/InputGroup';
+import Button from 'react-bootstrap/Button';
 
-export default class Footer extends React.Component {
+
+export default class CheckboxField extends Component {
   render() {
     return (
-      <footer className="footer">
-        <div className="container">
-          <div className="row">
-            <div className="col-md-4 footer__left">
-              <p>Footer content left</p>
-            </div>
-            <div className="col-md-8 footer__right">
-              <p>Footer content right</p>
-            </div>
-          </div>
-        </div>
-      </footer>
-    );
+      <div>
+      <Button>Hello</Button>
+    </div>
+    )
   }
 }
